@@ -7,6 +7,7 @@ attr_accessor :pets
   def initialize(name)
     @name = name
     @pets = {fishes: [], cats: [], dogs: []}
+    @species = "human"
     @@owners << self
   end
 
