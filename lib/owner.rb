@@ -21,4 +21,8 @@ attr_accessor :pets
     self.all.size
   end
 
+  def list_pets
+
+  end
+
 end
