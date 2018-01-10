@@ -19,5 +19,6 @@ attr_accessor :pets
 
   def self.count
     self.all.size
+  end
 
 end
