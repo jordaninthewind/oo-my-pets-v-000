@@ -22,6 +22,10 @@ attr_accessor :pets
     self.all.size
   end
 
+  def buy_fish(name)
+
+  end
+
   def list_pets
     # puts "I have #{} #{}, #{}#{}, and #{}#{}(s)."
   end
