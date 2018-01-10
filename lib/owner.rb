@@ -17,4 +17,7 @@ attr_accessor :pets
     @@owners = []
   end
 
+  def self.count
+    self.all.size
+
 end
