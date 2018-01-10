@@ -22,7 +22,7 @@ attr_accessor :pets
   end
 
   def list_pets
-
+    @pets
   end
 
 end
