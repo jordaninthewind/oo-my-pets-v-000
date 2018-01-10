@@ -35,6 +35,9 @@ attr_reader :name, :species
     @pets[:dogs] << Dog.new(name)
   end
 
+  def say_species
+    puts "I am a #{@species}."
+
   def list_pets
     # puts "I have #{} #{}, #{}#{}, and #{}#{}(s)."
   end
