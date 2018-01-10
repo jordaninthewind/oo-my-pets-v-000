@@ -6,6 +6,9 @@ attr_accessor :pets
   def initialize
     @pets = {fishes: [], cats: [], dogs: []}
   end
-# def self.
+
+  def self.reset_all
+
+  end
 
 end
