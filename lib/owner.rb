@@ -14,7 +14,7 @@ attr_accessor :pets
   end
 
   def self.reset_all
-    @@owners.clear
+    @@owners = []
   end
 
 end
