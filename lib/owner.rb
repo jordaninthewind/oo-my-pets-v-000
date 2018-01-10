@@ -39,6 +39,10 @@ attr_reader :name, :species
     puts "I am a #{@species}."
   end
 
+  def walk_dogs
+    self.
+  end
+
   def list_pets
     # puts "I have #{} #{}, #{}#{}, and #{}#{}(s)."
   end
