@@ -3,7 +3,8 @@ attr_accessor :pets
 
 @@owners = []
 
-  def initialize
+  def initialize(name)
+    @name = name
     @pets = {fishes: [], cats: [], dogs: []}
   end
 
