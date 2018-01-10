@@ -22,7 +22,7 @@ attr_accessor :pets
   end
 
   def list_pets
-    @pets
+    # puts "I have #{} #{}, #{}#{}, and #{}#{}(s)."
   end
 
 end
