@@ -26,6 +26,10 @@ attr_accessor :pets
     @pets[:fishes] << Fish.new(name)
   end
 
+  def buy_cat(name)
+    @pets[:cats] << Cat.new(name)
+  end
+
   def list_pets
     # puts "I have #{} #{}, #{}#{}, and #{}#{}(s)."
   end
