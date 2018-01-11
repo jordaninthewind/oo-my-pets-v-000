@@ -49,6 +49,7 @@ attr_reader :name, :species
 
   def feed_fish
     self.pets[:fish].each {|el| el.mood = "happy"}
+  end
 
   def list_pets
     # puts "I have #{} #{}, #{}#{}, and #{}#{}(s)."
