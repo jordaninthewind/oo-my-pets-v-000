@@ -56,6 +56,7 @@ attr_reader :name, :species
   def sell_pets
     self.pets.each do |k, v|
       v.each {|pet| pet.mood = "nervous" }
+    self.pets = {fishes: [], cats: [], dogs: []}
       # binding.pry
     end
   end
