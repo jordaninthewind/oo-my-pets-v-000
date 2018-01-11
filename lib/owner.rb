@@ -48,7 +48,7 @@ attr_reader :name, :species
   end
 
   def feed_fish
-    self.pets[:fishes.each {|el| el.mood = "happy"}
+    self.pets[:fishes].each {|el| el.mood = "happy"}
   end
 
   def list_pets
