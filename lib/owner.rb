@@ -38,7 +38,7 @@ attr_reader :species
   end
 
   def say_species
-    puts "I am a #{@species}."
+    return "I am a #{@species}."
   end
 
   def walk_dogs
