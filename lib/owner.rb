@@ -62,7 +62,7 @@ attr_reader :name, :species
   end
 
   def list_pets
-    # puts "I have #{} #{}, #{}#{}, and #{}#{}(s)."
+    puts "I have #{@pets[:fishes].size} fish, #{@pets[:dogs].size} dog(s), and #{@pets[:cats].size} cat(s)."
   end
 
 end
