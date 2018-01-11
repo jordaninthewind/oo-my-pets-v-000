@@ -54,9 +54,9 @@ attr_reader :name, :species
   end
 
   def sell_pets
-    self.pets.each do |el|
-      # el.each {|pet| pet.mood = "nervous" }
-      binding.pry
+    self.pets.each do |k, v|
+      v.each {|pet| pet.mood = "nervous" }
+      # binding.pry
     end
   end
 
