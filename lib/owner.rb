@@ -44,8 +44,8 @@ attr_reader :name, :species
   end
 
   def play_with_cats
-    selef.pets[:cats].each {|el| el.mood = "happy"}
-  
+    self.pets[:cats].each {|el| el.mood = "happy"}
+  end
 
   def list_pets
     # puts "I have #{} #{}, #{}#{}, and #{}#{}(s)."
