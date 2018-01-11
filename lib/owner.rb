@@ -51,6 +51,10 @@ attr_reader :name, :species
     self.pets[:fishes].each {|el| el.mood = "happy"}
   end
 
+  def sell_pets
+    self.pets.each do |el|
+      el.each {|pet| pet.mood = "nervous" }
+
   def list_pets
     # puts "I have #{} #{}, #{}#{}, and #{}#{}(s)."
   end
